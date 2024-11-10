@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Hero.css';
-import Title from '../assets/title2-3.png'; 
-import Mine from "../assets/background.png"
+import HeroImage from '../assets/title2-3.png'; 
+// import Mine from "../assets/background.png"
 const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -10,7 +10,7 @@ const HeroSection = () => {
       </a> */}
       <div className="hero-content">
       <div className="hero-about-image-container">
-        <img className="about-image" src={Title} alt="Counterspell Rwamagana" />
+        <img className="about-image" src={HeroImage} alt="Counterspell Rwamagana" />
         {/* <img src={Mine} className='hero-image123'/> */}
       </div>
       <div className='hero-subtitle'>

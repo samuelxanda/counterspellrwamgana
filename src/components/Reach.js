@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Reach.css';
-import Title from '../assets/title2-3.png'; 
+// import Title from '../assets/title2-3.png'; 
 const Reach = () => {
   return (
     <div className="reach-section">

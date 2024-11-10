@@ -1,0 +1,18 @@
+.schedule{
+  margin: 40px auto;
+  max-width: 890px;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'retro';
+
+}
+.schedule span{
+  color: #fff;
+
+}
+.schedule-item1{
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px dotted #fff;
+  padding: 20px 0;
+}

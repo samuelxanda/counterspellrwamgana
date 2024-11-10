@@ -1,0 +1,39 @@
+.reach-subtitle {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  .reach-subtitle a{
+    text-decoration: none;
+
+  }
+  .reach-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0 5px; /* Add some padding for smaller screens */
+    flex-direction: column; /* Stack content on smaller screens */
+  }
+  @media (max-width: 1024px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+  
+    .reach-subtitle {
+        font-size: 1.2rem;
+    }
+  }  
+  @media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+  
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+  }  
